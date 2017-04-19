@@ -1,0 +1,24 @@
+/*
+  main.css
+*/
+
+// Global Mixins
+@import 'global/variables';
+@import 'global/global';
+@import 'global/mixins';
+@import 'global/fonts';
+// Wrapper Containers
+@import 'components/containers/wrapper-container';
+// Navigation
+@import 'components/navigation/navigation_mobile';
+@import 'components/navigation/navigation_desktop';
+@import 'components/navigation/sub_navigation_mobile';
+@import 'components/navigation/sub_navigation_desktop';
+// Carousel 
+@import 'components/carousel/carousel';
+// Grid Container
+@import 'components/grid/grid';
+
+/* Footer */
+
+@import 'components/footer/footer';

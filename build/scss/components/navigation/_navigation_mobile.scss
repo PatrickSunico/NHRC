@@ -1,0 +1,105 @@
+// Navigation Mobile First
+.flex-nav {
+    display: flex;
+    background-color: white;
+    // set to relative for positioned absolute .open class
+    align-items: center;
+    position: relative;
+    .logo-placeholder {
+        align-items: center;
+        padding: 15px;
+        font-size: 28px;
+        // minimum baseline for the flex-nav parent
+        flex: 1;
+    }
+    .ul-container {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: none;
+        // flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+        li {
+            // single column on mobile screen 
+            flex-basis: 100%;
+            &:hover {
+                transition: all .4s;
+                // background-color: #dadada;
+            }
+            a {
+                color: #000;
+                display: block;
+                padding: 1rem;
+                &:hover {
+                    color: #000;
+                }
+            }
+        }
+        .social {
+            // comment - defaults to 4 columns 
+            flex: 1;
+            text-align: center;
+            // uncomment for single column
+            // flex: 1 1 100%;
+        }
+    }
+}
+
+// submenu 
+.has-children {
+    ul {
+        display: none;
+        li {
+            padding-left: 20px;
+            a {
+                display: block;
+            }
+        }
+    }
+}
+
+nav ul li:hover ul {
+    display: flex;
+    flex-direction: column;
+}
+
+// End
+// open nav animation
+.flex-nav {
+    .open {
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        top: 100%;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        transition: .2s all;
+        z-index: 10;
+        li {
+            cursor: pointer;
+            background-color: #fff;
+            text-align: left;
+            &:hover {
+                transition: all .8s;
+                background-color: #efefef;
+            }
+        }
+    }
+}
+
+// button style
+.toggleNav {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 22px;
+    padding: 20px;
+    cursor: pointer;
+    align-items: center;
+    &:hover {
+        transition: all .4s;
+        color: #dadada;
+    }
+}
