@@ -1,18 +1,10 @@
 <div class="banner">
   <div class="center-me">
       <!--Swiper Container-->
-      <div class="swiper-container">
+      <div class="swiper-container main-carousel">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <div class="slider" style="background-image: url('https://source.unsplash.com/category/nature');">
-              
-            </div> 
-          </div>
-          <div class="swiper-slide">
-            <div class="slider" style="background-image: url('https://source.unsplash.com/category/nature');"></div> 
-          </div>
-          <div class="swiper-slide">
-            <div class="slider" style="background-image: url('https://source.unsplash.com/category/nature');"></div>   
+            <div class="slider" style="background-image: url('images/bg-1.jpg');"></div> 
           </div>
         </div>
         <div class="swiper-pagination"></div>

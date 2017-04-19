@@ -1,5 +1,5 @@
   <nav class="flex-nav">
-    <div class="container">
+    <div class="nav-container">
       <span class="logo-placeholder">
         <a href="#">
           <img src="images/nhrc-logo.png" alt="">
@@ -29,100 +29,58 @@
             </li>
           </ul>
         </li>
+
         <li class="has-children">
-          <a href="#">Item 02</a>
+          <a href="#">News</a>
           <ul>
             <li>
-              <a href="#">Sub-item 01</a>
+              <a href="#">Latest News</a>
             </li>
             <li>
-              <a href="#">Sub-item 02</a>
+              <a href="#">Events Calendar</a>
             </li>
             <li>
-              <a href="#">Sub-item 03</a>
-            </li>
-          </ul>
-        </li>
-                <li class="has-children">
-          <a href="#">Item 03</a>
-          <ul>
-            <li>
-              <a href="#">Sub-item 01</a>
+              <a href="#">Upcoming</a>
             </li>
             <li>
-              <a href="#">Sub-item 02</a>
-            </li>
-            <li>
-              <a href="#">Sub-item 03</a>
+              <a href="#">Events History</a>
             </li>
           </ul>
         </li>
         <li class="has-children">
-          <a href="#">Item 4</a>
+          <a href="#">About Qatar</a>
           <ul>
             <li>
-              <a href="#">Sub-item 01</a>
+              <a href="#">Labour Law</a>
             </li>
             <li>
-              <a href="#">Sub-item 02</a>
+              <a href="#">Regulations</a>
+            </li>
+          </ul>
+        </li>
+        <li class="has-children">
+          <a href="#">Support</a>
+          <ul>
+            <li>
+              <a href="#">FAQ</a>
             </li>
             <li>
-              <a href="#">Sub-item 03</a>
+              <a href="#">Ministries</a>
+            </li>
+            <li>
+              <a href="#">International Human Rights</a>
             </li>
           </ul>
         </li>
         
         <li class="has-children">
-          <a href="#">Item 5</a>
-          <ul>
-            <li>
-              <a href="#">Sub-item 01</a>
-            </li>
-            <li>
-              <a href="#">Sub-item 02</a>
-            </li>
-            <li>
-              <a href="#">Sub-item 03</a>
-            </li>
-          </ul>
+          <a href="#">Contact Us</a>
         </li>
-
-        <li class="has-children">
-          <a href="#">Item 6</a>
-          <ul>
-            <li>
-              <a href="#">Sub-item 01</a>
-            </li>
-            <li>
-              <a href="#">Sub-item 02</a>
-            </li>
-            <li>
-              <a href="#">Sub-item 03</a>
-            </li>
-          </ul>
-        </li>
-
-        <li class="has-children">
-          <a href="#">Item 7</a>
-          <ul>
-            <li>
-              <a href="#">Sub-item 01</a>
-            </li>
-            <li>
-              <a href="#">Sub-item 02</a>
-            </li>
-            <li>
-              <a href="#">Sub-item 03</a>
-            </li>
-          </ul>
-        </li>
-
-        <li class="has-search-form">
-          <form action="">
-            <input class="input-search" name="first_name" type="text" placeholder="Search"/> 
+        <li class="has-children has-search-form">
+          <form action="" class="search-form">
+            <input class="input-search" name="search" type="text" placeholder="Search"/> 
           </form>
         </li>
-   
       </ul>
     </div>
   </nav>

@@ -5,15 +5,13 @@
 <?php include('includes/components/navigation/navigation.php');?>
 <?php include('includes/components/navigation/sub-navigation.php'); ?>
 
-
 <!--carousel-->
 <?php include('includes/components/carousel/carousel.php');?>
 
-<!--grid layout-->
-<div class="wrapper-container">
-  <?php include('includes/components/grid_layout/grid_layout.php');?>
-</div>
-<!--End-->
+<!--Image Gallery-->
+<?php include('includes/components/image-gallery/image-gallery.php');?>
+<!--Video Gallery-->
+<?php include('includes/components/video-gallery/video_gallery.php');?>
 
 <!--Footer-->
 <?php

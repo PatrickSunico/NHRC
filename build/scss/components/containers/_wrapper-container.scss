@@ -1,10 +1,37 @@
 // Navbar Container 
-.container {
+.nav-container {
     display: flex;
     margin: 0 auto;
     width: 100%;
-    align-items: center;
+    // align-items: center;
     padding: 0 15px;
+}
+
+@include breakpoint-1280-sm {
+    .nav-container {
+        width: 1200px;
+    }
+}
+
+@include breakpoint-1400-sm {
+    .nav-container {
+        width: 1400px;
+    }
+}
+
+i.fa[class^="fa"] {
+    margin-right: 4px;
+}
+
+// End Container
+// Main Container 
+.container {
+    // display: flex;
+    margin: 0 auto;
+    width: 100%;
+    // align-items: center;
+    padding: 0 15px;
+    // flex-direction: column;
 }
 
 @include breakpoint-1280-sm {
@@ -19,7 +46,6 @@
     }
 }
 
-// End Container
 // Wrapper Container
 .wrapper-container {
     display: flex;
@@ -40,43 +66,3 @@
         width: 1200px;
     }
 }
-
-// Footer 
-.footer-container {
-    max-width: 100%;
-    padding: 0 20px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-@include breakpoint-480-sm {
-    .footer-container {
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        flex-direction: row;
-    }
-}
-
-@include breakpoint-1280-sm {
-    .footer-container {
-        flex-wrap: nowrap;
-        max-width: 960px;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-}
-
-@include breakpoint-1400-sm {
-    .footer-container {
-        max-width: 1200px;
-        padding: 0 10px;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-}
-
-// End Footer

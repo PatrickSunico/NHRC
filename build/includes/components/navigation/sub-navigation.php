@@ -1,5 +1,5 @@
   <nav class="secondary-nav">
-    <div class="container">
+    <div class="nav-container">
       <div class="toggleNavSecondary">
         Toggle ☰
       </div>

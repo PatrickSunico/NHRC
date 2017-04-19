@@ -1,70 +1,123 @@
-<div class="footer-container">
+<div id="footer">
+  <div class="footer-container">
     <ul class="sitemap">
-      <h3 class="h3">Heading 1</h3>
-      <li><a class="footer-link" href="#"> Link 1 </a></li>
-      <li><a class="footer-link" href="#"> Link 2 </a></li>
-      <li><a class="footer-link" href="#"> Link 3 </a></li>
-      <li><a class="footer-link" href="#"> Link 4 </a></li>
-      <li><a class="footer-link" href="#"> Link 5 </a></li>
+      <h3 class="h3">About</h3>
+      <li><a class="footer-link" href="#"> Our Board </a></li>
+      <li><a class="footer-link" href="#"> Vision &amp; Mission </a></li>
+      <li><a class="footer-link" href="#"> Members Messages </a></li>
+      <li><a class="footer-link" href="#"> Our Strategy </a></li>
+      <li><a class="footer-link" href="#"> Our Achievements </a></li>
     </ul>
 
     <ul class="sitemap">
-      <h3 class="h3">Heading 2</h3>
-      <li><a class="footer-link" href="#"> Link 1 </a></li>
-      <li><a class="footer-link" href="#"> Link 2 </a></li>
-      <li><a class="footer-link" href="#"> Link 3 </a></li>
-      <li><a class="footer-link" href="#"> Link 4 </a></li>
+      <h3 class="h3">About Qatar</h3>
+      <li><a class="footer-link" href="#"> Labour Law </a></li>
+      <li><a class="footer-link" href="#"> Regulations </a></li>
+    </ul>
+
+     <ul class="sitemap">
+      <h3 class="h3">Resources</h3>
+      <li><a class="footer-link" href="#"> Image Galleries </a></li>
+      <li><a class="footer-link" href="#"> Publications</a></li>
 
     </ul>
 
      <ul class="sitemap">
-      <h3 class="h3">Heading 3</h3>
-      <li><a class="footer-link" href="#"> Link 1 </a></li>
-      <li><a class="footer-link" href="#"> Link 2 </a></li>
-      <li><a class="footer-link" href="#"> Link 3 </a></li>
-
+      <h3 class="h3">News</h3>
+      <li><a class="footer-link" href="#"> Latest News </a></li>
+      <li><a class="footer-link" href="#"> Events Calendar </a></li>
+      <li><a class="footer-link" href="#"> Upcoming </a></li>
+      <li><a class="footer-link" href="#"> Events History </a></li>
+      <li><a class="footer-link" href="#"> Blog </a></li>
     </ul>
 
-     <ul class="sitemap">
-      <h3 class="h3">Heading 4</h3>
-      <li><a class="footer-link" href="#"> Link 1 </a></li>
-      <li><a class="footer-link" href="#"> Link 2 </a></li>
-      <li><a class="footer-link" href="#"> Link 3 </a></li>
+ 
+    <ul class="sitemap">
+      <h3 class="h3">Support</h3>
+      <li><a class="footer-link" href="#">FAQ</a></li>
+      <li><a class="footer-link" href="#">Ministries</a></li>
+      <li><a class="footer-link" href="#">International Human <br>Rights</a></li>
     </ul>
 
-     <ul class="sitemap">
-      <h3 class="h3">Heading 5</h3>
-      <li><a class="footer-link" href="#"> Link 1 </a></li>
-      <li><a class="footer-link" href="#"> Link 2 </a></li>
-      <li><a class="footer-link" href="#"> Link 3 </a></li>
-      <li><a class="footer-link" href="#"> Link 4 </a></li>
-
+    <ul class="sitemap">
+      <h3 class="h3">Contact</h3>
+      <li><a class="footer-link" href="#"><i class="fa fa-map-marker"></i> Fereej Abdulaziz, Nasser Bin Khalid Intercession, Opposite Doha Petrol Station, Otabi Tower </a></li>
+      <li><a class="footer-link" href="#"><i class="fa fa-envelope"></i> nhrc@qatar.net.qa </a></li>
+      <li><a href="#" class="footer-link"><i class="fa fa-phone"></i> 0097444048844</a></li>
 
       <ul class="social">
         <li>
-          <a class="social-links" href="#">
+          <a  class="social-links" href="#">
             <i class="fa fa-facebook-official" aria-hidden="true"></i>
           </a>
         </li>
         <li>
-          <a class="social-links" href="#">
+          <a  class="social-links" href="#">
             <i class="fa fa-twitter" aria-hidden="true"></i>
           </a>
           </li>
         <li>
-          <a class="social-links" href="#">
+          <a  class="social-links" href="#">
             <i class="fa fa-youtube-play" aria-hidden="true"></i>
+          </a>
+        </li>
+
+        <li>
+          <a  class="social-links" href="#">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
           </a>
         </li>
       </ul>
 
     </ul>
-    <ul class="sitemap">
-      <h3 class="h3">Heading 6</h3>
-      <li><a class="footer-link" href="#"> Link 1 </a></li>
-      <li><a class="footer-link" href="#"> Link 2 </a></li>
-      <li><a class="footer-link" href="#"> Link 3 </a></li>
-      <li><a class="footer-link" href="#"> Link 4 </a></li>
-      <li><a class="footer-link" href="#"> Link 5 </a></li>
-    </ul>
   </div>
+</div>
+
+<div id="sub-footer">
+  <div class="container">
+    <div class="flex-2col">
+      <span class="copyright">
+        <p>2017 &COPY; | All Rights Reserved</p>
+      </span>
+
+      <ul class="secondary-sitemap">
+          <li>
+            <a href="#">
+              Staff Area |  
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              User Area |  
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Kids Area |  
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Careers |  
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Privacy Policy |  
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              Terms &amp; Conditions 
+            </a>
+          </li>
+          
+      </ul>
+    </div>
+
+  </div>
+</div>

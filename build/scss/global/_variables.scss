@@ -2,8 +2,6 @@
 $navbar-bg: #483c57;
 $link-hover: #CDC6C6;
 $link-color: #000;
-$nav-link-font: 'questrialregular',
-sans-serif;
 $nav-link-color: white;
 $nav-link-hover: #28292A;
 $jumbotron_ease: all 0.5s ease;
@@ -12,18 +10,9 @@ $ease_squeeze: all 0.4s ease-in-out;
 $secondary-nav-color: #832369;
 $secondary-nav-color-hover: #672254;
 // Heading Variables 
-$primary-heading: 'questrialregular',
+$lato: 'lato',
 sans-serif;
-// Content Fonts
-$latolight: 'latolight',
-sans-serif;
-$latolight_italic: 'latolight_italic',
-sans-serif;
-$latomedium: 'latomedium',
-sans-serif;
-$latoregular: 'latoregular',
-sans-serif;
-$latoheavy: 'latoheavy',
+$poppins: 'poppins',
 sans-serif;
 // Feature Carousels 
 $feature-carousel-bg-color: #484B4F;

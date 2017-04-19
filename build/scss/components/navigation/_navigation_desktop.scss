@@ -53,6 +53,9 @@
                         transition: $ease_squeeze;
                     }
                 }
+                .has-children.has-search-form {
+                    flex: 4;
+                }
             }
         }
     }
@@ -62,4 +65,10 @@
         flex-direction: column;
     }
     // End
+    // Form Desktop Styles
+    .search-form {
+        .input-search {
+            margin: 0;
+        }
+    }
 }

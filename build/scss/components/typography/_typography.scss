@@ -1,0 +1,19 @@
+.heading {
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+// End Footer
+@include breakpoint-1200-sm {
+    .heading {
+        max-width: 1200px;
+        // margin: 0 auto;
+        // display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 2rem 0;
+    }
+}

@@ -6,7 +6,6 @@
 @import 'global/variables';
 @import 'global/global';
 @import 'global/mixins';
-@import 'global/fonts';
 // Wrapper Containers
 @import 'components/containers/wrapper-container';
 // Navigation
@@ -16,8 +15,13 @@
 @import 'components/navigation/sub_navigation_desktop';
 // Carousel 
 @import 'components/carousel/carousel';
+// Image Gallery 
+@import 'components/image-gallery/image-gallery';
+// Video Gallery 
+@import 'components/video-gallery/video-gallery';
 // Grid Container
-@import 'components/grid/grid';
+// Typography 
+@import 'components/typography/typography';
 
 /* Footer */
 
